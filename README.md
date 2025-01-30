@@ -5,7 +5,7 @@ A simple app NestJS API that manages superheroes.
 ## Installation
 
 ```bash
-git clone https://github.com/username/humble-superhero-api.git
+git clone https://github.com/Alexandru1099/superheroes-NestJS.git
 cd humble-superhero-api
 $ npm install
 ```
