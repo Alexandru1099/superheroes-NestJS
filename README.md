@@ -1,28 +1,23 @@
-# Humble Superhero API
-
-A simple app NestJS API that manages superheroes.
-
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+A simple app NestJS API that manages superheroes.
 
 ## Installation
 
 ```bash
+git clone https://github.com/username/humble-superhero-api.git
+cd humble-superhero-api
 $ npm install
 ```
+
+## Configuration
+- Create a file if not exist .env for environment variables : MONGODB_URI, PORT, JWT_SECRET
 
 ## Running the app
 
 ```bash
 # development
 $ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
 
 ## Test
@@ -31,23 +26,14 @@ $ npm run start:prod
 # unit tests
 $ npm run test
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
 
-## Support
+## Collaboration
+- Keep an open communication line
+- suggest refactors, and discuss potential optimizations or new features.
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## If I Had More Time
+- Implement a complete authentication system (JWT with refresh tokens).
+- Add a role-based authorization system (admin / user) with restricted endpoints.
+- Refactor the in-memory (or MongoDB) storage to an SQL-based solution (e.g., PostgreSQL) for more robust relational data management.
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
